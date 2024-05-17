@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2F601C2BF79D2900C78D81 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F601B2BF79D2900C78D81 /* CardView.swift */; };
 		EF406E412BF651F100A7E729 /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF406E402BF651F100A7E729 /* HikeAppApp.swift */; };
 		EF406E432BF651F100A7E729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF406E422BF651F100A7E729 /* ContentView.swift */; };
 		EF406E452BF651F600A7E729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF406E442BF651F600A7E729 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF2F601B2BF79D2900C78D81 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EF406E3D2BF651F100A7E729 /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF406E402BF651F100A7E729 /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
 		EF406E422BF651F100A7E729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF2F601D2BF79D5000C78D81 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F601B2BF79D2900C78D81 /* CardView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		EF406E342BF651F100A7E729 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		EF406E3F2BF651F100A7E729 /* HikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF2F601D2BF79D5000C78D81 /* Component */,
 				EF406E402BF651F100A7E729 /* HikeAppApp.swift */,
 				EF406E422BF651F100A7E729 /* ContentView.swift */,
 				EF406E442BF651F600A7E729 /* Assets.xcassets */,
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF406E432BF651F100A7E729 /* ContentView.swift in Sources */,
+				EF2F601C2BF79D2900C78D81 /* CardView.swift in Sources */,
 				EF406E412BF651F100A7E729 /* HikeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
