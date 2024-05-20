@@ -10,6 +10,7 @@
 		EF2F601C2BF79D2900C78D81 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F601B2BF79D2900C78D81 /* CardView.swift */; };
 		EF2F601F2BF79DF800C78D81 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F601E2BF79DF800C78D81 /* CustomBackgroundView.swift */; };
 		EF2F60222BF79F7E00C78D81 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F60212BF79F7E00C78D81 /* ColorExtension.swift */; };
+		EF2F60242BFBA02800C78D81 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F60232BFBA02800C78D81 /* CustomButtonView.swift */; };
 		EF406E412BF651F100A7E729 /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF406E402BF651F100A7E729 /* HikeAppApp.swift */; };
 		EF406E432BF651F100A7E729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF406E422BF651F100A7E729 /* ContentView.swift */; };
 		EF406E452BF651F600A7E729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF406E442BF651F600A7E729 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		EF2F601B2BF79D2900C78D81 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EF2F601E2BF79DF800C78D81 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		EF2F60212BF79F7E00C78D81 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EF2F60232BFBA02800C78D81 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		EF406E3D2BF651F100A7E729 /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF406E402BF651F100A7E729 /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
 		EF406E422BF651F100A7E729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				EF2F601B2BF79D2900C78D81 /* CardView.swift */,
+				EF2F60232BFBA02800C78D81 /* CustomButtonView.swift */,
 				EF2F601E2BF79DF800C78D81 /* CustomBackgroundView.swift */,
 			);
 			path = Component;
@@ -167,6 +170,7 @@
 				EF406E432BF651F100A7E729 /* ContentView.swift in Sources */,
 				EF2F601C2BF79D2900C78D81 /* CardView.swift in Sources */,
 				EF406E412BF651F100A7E729 /* HikeAppApp.swift in Sources */,
+				EF2F60242BFBA02800C78D81 /* CustomButtonView.swift in Sources */,
 				EF2F601F2BF79DF800C78D81 /* CustomBackgroundView.swift in Sources */,
 				EF2F60222BF79F7E00C78D81 /* ColorExtension.swift in Sources */,
 			);
