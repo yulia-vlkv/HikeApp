@@ -65,6 +65,40 @@ struct CardView: View {
                     .scaledToFit()
                 }
                 // MARK: - FOOTER
+                Button {
+                    // ACTION: Generate a random number
+                    print("A button was pressed")
+                } label: {
+                    Text("Explore more")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            LinearGradient(
+                                colors: [
+                                    .customGreenLight,
+                                    .customGreenMedium
+                                ],
+                                startPoint: .top,
+                                endPoint: .bottom
+                            )
+                        )
+                        .shadow(color: .black.opacity(0.25),  radius: 0.35, x: 1, y: 2)
+                        
+                }
+                .padding(.vertical)
+                .padding(.horizontal, 30)
+                .background(
+                    LinearGradient(
+                        colors: [
+                            .customGrayLight,
+                                .customGrayMedium
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
+                )
+                .cornerRadius(40)
+                
             } //: VSTACK
         } //: CARD
         .frame(width: 320, height: 570)
