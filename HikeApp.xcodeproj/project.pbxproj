@@ -16,6 +16,7 @@
 		EF406E432BF651F100A7E729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF406E422BF651F100A7E729 /* ContentView.swift */; };
 		EF406E452BF651F600A7E729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF406E442BF651F600A7E729 /* Assets.xcassets */; };
 		EF406E482BF651F600A7E729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF406E472BF651F600A7E729 /* Preview Assets.xcassets */; };
+		EF4D96742BFF934A004C06CE /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D96732BFF9349004C06CE /* CustomCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EF406E442BF651F600A7E729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF406E472BF651F600A7E729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF406E492BF651F600A7E729 /* HikeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HikeApp.entitlements; sourceTree = "<group>"; };
+		EF4D96732BFF9349004C06CE /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 				EF2F601B2BF79D2900C78D81 /* CardView.swift */,
 				EF2F60232BFBA02800C78D81 /* CustomButtonView.swift */,
 				EF2F601E2BF79DF800C78D81 /* CustomBackgroundView.swift */,
+				EF4D96732BFF9349004C06CE /* CustomCircleView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF406E432BF651F100A7E729 /* ContentView.swift in Sources */,
+				EF4D96742BFF934A004C06CE /* CustomCircleView.swift in Sources */,
 				EF2F601C2BF79D2900C78D81 /* CardView.swift in Sources */,
 				EF406E412BF651F100A7E729 /* HikeAppApp.swift in Sources */,
 				EF2F60242BFBA02800C78D81 /* CustomButtonView.swift in Sources */,
