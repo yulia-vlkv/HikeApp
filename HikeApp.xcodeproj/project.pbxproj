@@ -18,6 +18,7 @@
 		EF406E482BF651F600A7E729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF406E472BF651F600A7E729 /* Preview Assets.xcassets */; };
 		EF4D96742BFF934A004C06CE /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D96732BFF9349004C06CE /* CustomCircleView.swift */; };
 		EF4D96762BFF94C0004C06CE /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D96752BFF94C0004C06CE /* MotionAnimationView.swift */; };
+		EF4D96792C00F201004C06CE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D96782C00F201004C06CE /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EF406E492BF651F600A7E729 /* HikeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HikeApp.entitlements; sourceTree = "<group>"; };
 		EF4D96732BFF9349004C06CE /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		EF4D96752BFF94C0004C06CE /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		EF4D96782C00F201004C06CE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,7 @@
 				EF2F60202BF79F6300C78D81 /* Utility */,
 				EF2F601D2BF79D5000C78D81 /* Component */,
 				EF406E402BF651F100A7E729 /* HikeAppApp.swift */,
-				EF406E422BF651F100A7E729 /* ContentView.swift */,
+				EF4D96772C00F1E7004C06CE /* Screen */,
 				EF406E442BF651F600A7E729 /* Assets.xcassets */,
 				EF406E492BF651F600A7E729 /* HikeApp.entitlements */,
 				EF406E462BF651F600A7E729 /* Preview Content */,
@@ -104,6 +106,15 @@
 				EF406E472BF651F600A7E729 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4D96772C00F1E7004C06CE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EF406E422BF651F100A7E729 /* ContentView.swift */,
+				EF4D96782C00F201004C06CE /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				EF2F601C2BF79D2900C78D81 /* CardView.swift in Sources */,
 				EF406E412BF651F100A7E729 /* HikeAppApp.swift in Sources */,
 				EF2F60242BFBA02800C78D81 /* CustomButtonView.swift in Sources */,
+				EF4D96792C00F201004C06CE /* SettingsView.swift in Sources */,
 				EF2F60262BFCE1F300C78D81 /* GradientButtonStyle.swift in Sources */,
 				EF4D96762BFF94C0004C06CE /* MotionAnimationView.swift in Sources */,
 				EF2F601F2BF79DF800C78D81 /* CustomBackgroundView.swift in Sources */,
